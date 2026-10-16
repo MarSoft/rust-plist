@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 - Decode non-ASCII characters in quoted ASCII plist strings as UTF-8 rather than one char per byte.
+- Accept the `\'` escape in quoted ASCII plist strings.
 
 ## [1.10.1] - 2026-09-06
 
